@@ -2,6 +2,7 @@ name: Test
 on: push
 
 jobs: 
-  runs-on: ubuntu-latest
-  steps: 
-  run: echo"Hello CI"
+
+  steps:
+    - name: get code
+    run: echo"Hello CI"
